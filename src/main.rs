@@ -20,7 +20,7 @@ fn main() {
 
         match input.parse::<i64>() {
             Ok(num) => {
-                if num > 0 {
+                if num >= 0 {
                     sum += num;
                 } else {
                     invalid_input = true;
